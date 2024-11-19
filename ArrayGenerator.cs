@@ -14,9 +14,9 @@ namespace BubbleSort
 
             int[] array = new int[length];
 
-            foreach (int num in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                array[num] = rnd.Next(minNum, maxNum);
+                array[i] = rnd.Next(minNum, maxNum);
             }
 
             return array;
